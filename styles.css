@@ -1,19 +1,25 @@
-* {
-  margin: 0;
+body {
   padding: 0;
+  margin: 0;
 }
-main {
-  background-color: #000;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+a {
+  color: black;
+  font-size: 15px;
+}
+.linha1 {
+  height: 100px;
+  width: 25%;
+}
+.galaxy {
+  height: 180px;
+  width: 15%;
+}
+img {
+  width: 320px;
+  height: 200px;
+}
+ul li {
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #fff;
+  padding: 7px;
 }
